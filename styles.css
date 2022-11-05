@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.headingnav{
+    margin-left: 400px;
+}
+
+.subheading{
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+    display: flex;
+
+}
+.navbar{
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: fixed;
+    z-index: 999;
+    background: white;
+    width: 100%;
+    /* background: white; */
+  
+}
+.content{
+    padding-top: 100px;
+}
+
+p{
+    padding: 0;
+    font-weight: lighter;
+}
+.row{
+    padding-top: 21px;
+    display: flex;
+    padding-bottom: 21px;
+}
+.img{
+   /* width: max-content; */
+    margin-left: 20px;
+}
+.icon{
+    position: relative;
+    left: 320px;
+    color: gray;
+    top: 10px;
+}
+.user{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.head-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.input{
+    background-color: rgb(197, 193, 193);
+    text-indent: 30px;
+    border: none;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    color: black;
+    margin-left: 300px;
+}
+.navs{
+    list-style-type: none;
+    padding-top: 10px;
+    margin-left: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+  
+}
+.nav-links{
+    margin-left: 50px;
+}
+#collections{
+    padding-bottom: 48px;
+    padding-top: 20px;
+    font-weight: normal;
+    font-size: 64px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.item{
+    margin-top: 20px;
+}
+
+#item3{
+    margin-left: 200px;
+}
+.items{
+    text-align: center;
+    display: grid;
+    margin-left: 50px;
+    font-size: 18px;
+    grid-template-columns: repeat(4,25%);
+}
+.paragraph{
+    padding-top: 5px;
+    letter-spacing: 0.5px;
+    
+}
+
+.info{
+    margin-top: 20px;
+    padding: 5px;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+.boat-logo{
+    width: 100px;
+    height: 80px;
+}
+.footer{
+    padding: 30px;
+    padding-right: 80px;
+}
+.textemail{
+   
+  border: none;
+  padding-top: 5px;
+  text-indent: 15px;
+  margin-top: 10px;
+
+}
+.textbtn{
+    text-indent: 10px;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    text-align: center;
+    background-color: red;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+   
+  }
+.btn{
+    border: 1px solid red;
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    height: 400px;
+}
+.titleFooter{
+    margin-top: 50px;
+
+    font-size: 12px;
+    display: flex;
+}
+
+.footer-items{
+    list-style-type: none;
+    font-size: 14px;
+    color: gray;
+    margin-top: 15px;
+}
+#footer2{
+    padding-top: 12px;
+}
+.footeritem{
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+
+}
+.footitems{
+    /* border-right: 1px solid gray; */
+    padding-right: 20px;
+    /* display: inline-block; */
+}
+hr{
+    color: gray;
+}
+.footerRow{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.socialIcons{
+    width: 14px;
+    height: 6px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.download-heading {
+    font-weight: bold;
+    padding-top: 40px;
+    font-size: 20px;
+    margin-left: 40px;
+    padding-bottom: 30px;
+}
+#img-google{
+    width: 150px;
+    padding-top: 10px;  
+}
+.download{
+    display: flex;
+
+}
+.app-store{
+    margin-top: 15px;
+}
+.copyright{
+    font-size: 12px;
+    color: gray;
+    margin-left: 20px;
+    width: 100%;
+    height: 20px;
+    padding: 20px;
+}
+.payment{
+    margin-left: 600px;
+    margin-top: 40px;
+}
+.payment p{
+    font-weight: 600;
+    margin-left: 20px;
+}
+.pay-img{
+    width: max-content;
+    height: 50px;
+}
